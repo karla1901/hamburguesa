@@ -55,11 +55,6 @@ class SecondPage extends StatelessWidget {
                         hintText: 'Nombre de usuario',
                         filled: true,
                         fillColor: Colors.blueGrey.shade100,
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(20),
-                          borderSide: BorderSide.none,
-                        ),
-                      ),
                     ), //Campo de Texto
                     SizedBox(height: 16),
                     TextField(
