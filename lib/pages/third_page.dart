@@ -54,7 +54,37 @@ class _ThirdPageState extends State<ThirdPage> {
               ),
               SizedBox(
                 height: 20.0,
-              ), InkWell(
+              ),
+              Container(
+                height: 50,
+                width: 100,
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(30.0),
+                  gradient: LinearGradient(
+                    colors: [
+                      Colors.purple,
+                      Colors.purple[300],
+                      Colors.purple[200],
+                    ],
+                    begin: Alignment.bottomLeft,
+                    end: Alignment.topRight,
+                  ),
+                ),
+                child: Text(
+                  'Hola',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              InkWell(
                 onTap: () {
                   print('sky');
                 },
@@ -64,12 +94,6 @@ class _ThirdPageState extends State<ThirdPage> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30.0),
-                    gradient: LinearGradient(
-                      colors: [
-                        Colors.green,
-                        Colors.green[300],
-                        Colors.green[200],
-                      ],
                       begin: Alignment.bottomLeft,
                       end: Alignment.topRight,
                     ),
