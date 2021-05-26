@@ -63,7 +63,7 @@ class SecondPage extends StatelessWidget {
                       ),
                     ), //Campo de Texto
                     SizedBox(
-                      height: 20,
+                      height: 40,
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
