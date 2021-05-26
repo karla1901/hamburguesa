@@ -89,17 +89,23 @@ class _ThirdPageState extends State<ThirdPage> {
                   print('nube');
                 },
                 child: Container(
-                 padding: EdgeInsets.add(10),
-                 decoration: ShapeDecoration(
-                   shape: CircleBorder(),
-                   gradient: LinearGradient(
-                     color: Colors.blueGrey,
-                     begin: Alignment.topLeft,
-                     end: Alignment.bottomRight
-                   )
-                 ),//shapedecoration
+                  width: 110,
+                  height: 110,
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(30.0),
+                    gradient: LinearGradient(
+                      colors: [
+                        Colors.green,
+                        Colors.green[300],
+                        Colors.green[200],
+                      ],
+                      begin: Alignment.bottomLeft,
+                      end: Alignment.topRight,
+                    ),
+                  ),
                   child: ImageIcon(
-                    AssetImage("assets/images/nube.png"),
+                    AssetImage("assets/images/nubecita.png"),
                     size: 100,
                     color: Colors.white,
                   ),
