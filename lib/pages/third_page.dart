@@ -95,7 +95,12 @@ class _ThirdPageState extends State<ThirdPage> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30.0),
-                    gradient: LinearGradient(
+                     gradient: LinearGradient(
+                      colors: [
+                        Colors.purple,
+                        Colors.purple[300],
+                        Colors.purple[200],
+                      ],
                       begin: Alignment.bottomLeft,
                       end: Alignment.topRight,
                     ),
