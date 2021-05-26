@@ -73,7 +73,7 @@ class _ThirdPageState extends State<ThirdPage> {
                   ),
                 ),
                 child: Text(
-                  'yeehaw',
+                  '',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.black,
@@ -106,7 +106,7 @@ class _ThirdPageState extends State<ThirdPage> {
                     ),
                   ),
                   child: ImageIcon(
-                    AssetImage("assets/images/logo.png"),
+                    AssetImage("assets/images/cloud.png"),
                     size: 100,
                     color: Colors.white,
                   ),
