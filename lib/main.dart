@@ -53,8 +53,8 @@ class _PaginaInicioState extends State<PaginaInicio> {
               icon: Icon(Icons.shopping_cart_rounded, size: 30.0), //icon
               title: Text('Compras')), //
         ],
-        selectedItemColor: Colors.yellow,
-        unselectedItemColor: Colors.red,
+        selectedItemColor: Colors.red,
+        unselectedItemColor: Colors.black,
       ), // bottom
 
       
