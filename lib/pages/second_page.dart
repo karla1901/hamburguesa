@@ -28,15 +28,6 @@ class SecondPage extends StatelessWidget {
                           color: Colors.red,
                         ),
                       ),
-                      Text(
-                        'Karla Castañeda',
-                        style: new TextStyle(
-                          fontWeight: FontWeight.bold,
-                          letterSpacing: 3.0,
-                          fontSize: 12.0,
-                          color: Colors.red,
-                        ),
-                      ),
                     ],
                   ),
                 ), //contenedor
@@ -61,7 +52,7 @@ class SecondPage extends StatelessWidget {
                     TextField(
                       decoration: InputDecoration(
                         filled: true,
-                        fillColor: Colors.amber.shade100,
+                        fillColor: Colors.blueGrey.shade100,
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(20),
                           borderSide: BorderSide.none,
@@ -74,7 +65,7 @@ class SecondPage extends StatelessWidget {
                     TextField(
                       decoration: InputDecoration(
                         filled: true,
-                        fillColor: Colors.amber.shade100,
+                        fillColor: Colors.blueGrey.shade100,
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(20),
                           borderSide: BorderSide.none,
