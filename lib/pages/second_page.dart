@@ -50,7 +50,6 @@ class SecondPage extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
                     TextField(
-                      suffixIcon: Icon(Icons.account_box),
                       decoration: InputDecoration(
                         filled: true,
                         fillColor: Colors.blueGrey.shade100,
@@ -59,6 +58,8 @@ class SecondPage extends StatelessWidget {
                           borderSide: BorderSide.none,
                         ),
                         hintText: 'Nombre de usuario',
+                        
+                        suffixIcon: Icon(Icons.account_box),
                       ),
                     ), //Campo de Texto
                     SizedBox(height: 16),
