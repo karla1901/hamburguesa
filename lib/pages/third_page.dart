@@ -97,8 +97,8 @@ class _ThirdPageState extends State<ThirdPage> {
                     gradient: LinearGradient(
                       colors: [
                         Colors.purple[900],
-                        Colors.purple[800],
                         Colors.purple[700],
+                        Colors.purple,
                       ],
                       begin: Alignment.bottomLeft,
                       end: Alignment.topRight,
