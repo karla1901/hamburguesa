@@ -54,37 +54,11 @@ class _ThirdPageState extends State<ThirdPage> {
               ),
               SizedBox(
                 height: 20.0,
-              ),
-              Container(
-                height: 50,
-                width: 100,
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(30.0),
-                  gradient: LinearGradient(
-                    colors: [
-                      Colors.blueGrey,
-                      Colors.blueGrey[300],
-                      Colors.blueGrey[200],
-                    ],
-                    begin: Alignment.bottomLeft,
-                    end: Alignment.topRight,
-                  ),
-                ),
-                child: Text(
-                  'Hola',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
-              SizedBox(
-                height: 20.0,
-              ),
-               child: Container(
+              ), InkWell(
+                onTap: () {
+                  print('sky');
+                },
+                child: Container(
                   width: 110,
                   height: 110,
                   alignment: Alignment.center,
@@ -101,7 +75,7 @@ class _ThirdPageState extends State<ThirdPage> {
                     ),
                   ),
                   child: ImageIcon(
-                    AssetImage("assets/images/nube.png"),
+                    AssetImage("assets/images/35078.png"),
                     size: 100,
                     color: Colors.white,
                   ),
