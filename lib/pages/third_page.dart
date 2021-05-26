@@ -86,24 +86,18 @@ class _ThirdPageState extends State<ThirdPage> {
               ),
               InkWell(
                 onTap: () {
-                  print('sky');
+                  print('nube');
                 },
                 child: Container(
-                  width: 110,
-                  height: 110,
-                  alignment: Alignment.center,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(30.0),
-                    gradient: LinearGradient(
-                      colors: [
-                        Colors.green,
-                        Colors.green[300],
-                        Colors.green[200],
-                      ],
-                      begin: Alignment.bottomLeft,
-                      end: Alignment.topRight,
-                    ),
-                  ),
+                 padding: EdgeInsets.add(10),
+                 decoration: ShapeDecoration(
+                   shape: CircleBorder(),
+                   gradient: LinearGradient(
+                     color: Colors.blueGrey,
+                     begin: Alignment.topLeft,
+                     end: Alignment.bottomRight
+                   )
+                 ),//shapedecoration
                   child: ImageIcon(
                     AssetImage("assets/images/nube.png"),
                     size: 100,
