@@ -10,7 +10,7 @@ class _ThirdPageState extends State<ThirdPage> {
   Widget build(BuildContext context) {
     return Material(
       child: ConstrainedBox(
-        constraints: BoxConstraints(maxWidth: 50, minWidth: 200),
+        constraints: BoxConstraints(maxWidth: 50, minWidth: 20),
         child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
