@@ -106,7 +106,7 @@ class _ThirdPageState extends State<ThirdPage> {
                     ),
                   ),
                   child: ImageIcon(
-                    AssetImage("assets/images/cloud.png"),
+                    AssetImage("assets/images/nube.png"),
                     size: 100,
                   ),
                 ),
