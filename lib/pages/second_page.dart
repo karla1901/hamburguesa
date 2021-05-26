@@ -50,9 +50,8 @@ class SecondPage extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
                     TextField(
+                      suffixIcon: Icon(Icons.account_box),
                       decoration: InputDecoration(
-                        
-                        suffixIcon: Icon(Icons.account_box),
                         filled: true,
                         fillColor: Colors.blueGrey.shade100,
                         border: OutlineInputBorder(
