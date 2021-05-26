@@ -63,9 +63,9 @@ class _ThirdPageState extends State<ThirdPage> {
                   borderRadius: BorderRadius.circular(30.0),
                   gradient: LinearGradient(
                     colors: [
-                      Colors.purple,
-                      Colors.purple[300],
-                      Colors.purple[200],
+                       Colors.deepPurpleAccent[700],
+                       Colors.deepPurpleAccent,
+                      Colors.deepPurpleAccent[100],
                     ],
                     begin: Alignment.bottomLeft,
                     end: Alignment.topRight,
