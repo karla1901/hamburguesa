@@ -96,11 +96,6 @@ class _ThirdPageState extends State<ThirdPage> {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30.0),
                     gradient: LinearGradient(
-                      colors: [
-                        Colors.green,
-                        Colors.green[300],
-                        Colors.green[200],
-                      ],
                       begin: Alignment.bottomLeft,
                       end: Alignment.topRight,
                     ),
