@@ -94,7 +94,12 @@ class _ThirdPageState extends State<ThirdPage> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30.0),
-                    color: Colors.blueGrey,
+                    gradient: LinearGradient(
+                      colors: [
+                        Colors.green,
+                        Colors.green[300],
+                        Colors.green[200],
+                      ],
                       begin: Alignment.bottomLeft,
                       end: Alignment.topRight,
                     ),
@@ -113,3 +118,4 @@ class _ThirdPageState extends State<ThirdPage> {
     );
   }
 }
+© 2021 GitHub, Inc.
