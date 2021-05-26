@@ -48,24 +48,17 @@ class SecondPage extends StatelessWidget {
                         ],
                       ),
                     ),
-                    SizedBox(height: 20),
+                    SizedBox(height: 40),
                     TextField(
                       decoration: InputDecoration(
-                        suffixIcon: Icon(Icons.account_box),
+                         icon: Icon(Icons.account_box),
                         hintText: 'Nombre de usuario',
-                        filled: true,
-                        fillColor: Colors.blueGrey.shade100,
+                      ),
                     ), //Campo de Texto
-                    SizedBox(height: 16),
+                    SizedBox(height: 40),
                     TextField(
                       decoration: InputDecoration(
-                        filled: true,
-                        fillColor: Colors.blueGrey.shade100,
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(20),
-                          borderSide: BorderSide.none,
-                        ),
-                        suffixIcon: Icon(Icons.vpn_key_rounded),
+                        icon: Icon(Icons.vpn_key_rounded),
                         hintText: 'Contraseña',
                       ),
                     ), //Campo de Texto
