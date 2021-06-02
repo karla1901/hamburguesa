@@ -10,7 +10,7 @@ class FirstPage extends StatelessWidget {
             children: <Widget>[
               FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/aerop.jpg'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/aerpu.jpg'),
               )
             ],
           ),
