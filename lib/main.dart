@@ -12,6 +12,22 @@ class BurgerApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Hamburguesas Karla',
       home: PaginaInicio(),
+    );// Material App
+  }// Constructor
+}// BurgerApp
+
+class PaginaInicio extends StatefulWidget {
+  @override
+  _PaginaInicioState createState() => _PaginaInicioState();
+}// Clase PaginaInicio 
+
+class _PaginaInicioState extends State<PaginaInicio> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Imagenes de Karlangas'),
+      ),
       body: Center(
         child: Container(
           child: Column(
@@ -27,36 +43,6 @@ class BurgerApp extends StatelessWidget {
           ),
         ),
       ),
-    );// Material App
-  }// Constructor
-}// BurgerApp
-
-class PaginaInicio extends StatefulWidget {
-  @override
-  _PaginaInicioState createState() => _PaginaInicioState();
-}// Clase PaginaInicio 
-
-class _PaginaInicioState extends State<PaginaInicio> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SizedBox.expand(child: child),
-      bottomNavigationBar: BottomNavigationBar(
-        onTap: (newIndex) => setState(() => _index = newIndex),
-        currentIndex: _index, items: [
-          BottomNavigationBarItem(
-              icon: Icon(Icons.home_rounded, size: 30.0), //icon
-              title: Text('Inicio')), //
-          BottomNavigationBarItem(
-              icon: Icon(Icons.format_align_center_rounded, size: 30.0), //icon
-              title: Text('Registrarse')), //
-          BottomNavigationBarItem(
-              icon: Icon(Icons.search, size: 30.0), //icon
-              title: Text('Buscar voleto')), //
-        ],
-        selectedItemColor: Colors.red,
-        unselectedItemColor: Colors.black,
-      ), // bottom
-    );// Scaffold
+    );
   }// Constructor
 }// Clase _PaginaInicioState
