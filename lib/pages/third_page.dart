@@ -36,7 +36,7 @@ class _ThirdPageState extends State<ThirdPage> {
               borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
               child: FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/aero.jpg'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Guadalajara.jpg'),
               ),
             ),
             Padding(
