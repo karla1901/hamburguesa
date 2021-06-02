@@ -98,6 +98,7 @@ class _ThirdPageState extends State<ThirdPage> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text('Huatulco'),
+              color: Colors.white,
             )
           ],
         ),
