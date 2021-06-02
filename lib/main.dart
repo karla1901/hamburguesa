@@ -16,15 +16,24 @@ class BurgerApp extends StatelessWidget {
   }// Constructor
 }// BurgerApp
 
-class PaginaInicio extends StatefulWidget {
-  @override
-  _PaginaInicioState createState() => _PaginaInicioState();
-}// Clase PaginaInicio 
-
 class _PaginaInicioState extends State<PaginaInicio> {
+  int _index = 0; 
   @override
   Widget build(BuildContext context) {
-     return Scaffold(
+    final size = MediaQuery.of(context).size;
+    Widget child;
+    switch (_index) {
+      case 0:
+        child = FlutterLogo();
+        break;
+      case 1:
+        child = MaterialApp(debugShowCheckedModeBanner: false, home: new SecondPage());
+        break;
+      case 2:
+        child = MaterialApp(debugShowCheckedModeBanner: false, home: new ThirdPage());
+        break;
+    }// Switch
+    return Scaffold(
       body: SizedBox.expand(child: child),
       bottomNavigationBar: BottomNavigationBar(
         onTap: (newIndex) => setState(() => _index = newIndex),
@@ -42,6 +51,8 @@ class _PaginaInicioState extends State<PaginaInicio> {
         selectedItemColor: Colors.orangeAccent,
         unselectedItemColor: Colors.blueAccent,
       ), // bottom
+
+      
     );// Scaffold
   }// Constructor
 }// Clase _PaginaInicioState
