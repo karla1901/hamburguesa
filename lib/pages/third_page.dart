@@ -52,25 +52,25 @@ class _ThirdPageState extends State<ThirdPage> {
       color: Color(0xFFBDBDBD),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: Container(
-        padding: EdgeInsets.all(20),
         child: Column(
           children: <Widget>[
-            Text(
-              '¿Qué es mejor, Android o iOS?',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.black),
+            ClipRRect(
+              borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
+              child: FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/aero.jpg'),
+              ),
             ),
-            SizedBox(
-              height: 20,
-            ),
-            Text(
-              'Sabemos que Android toma la delantera en cuanto a variedad de costos -ofreciendo smartphones a precios accesibles-, batería y sistema de navegación. Mientras que los equipos Iphone ofrecen mayor calidad de plataforma gracias al sistema operativo iOS que se caracteriza por ofrecer un rendimiento de gama alta.',
-              style: TextStyle(color: Colors.black),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text('Card con imágen'),
             )
           ],
         ),
       ),
     );
   }
+}
 
   Widget _crearCard3() {
     return Card(
