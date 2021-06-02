@@ -109,7 +109,7 @@ class _ThirdPageState extends State<ThirdPage> {
   Widget _crearCard4() {
     return Card(
       elevation: 5,
-      color: Color(0xFFA1887F),
+      color: Color(0xFFC0CA33),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: Container(
         child: Column(
