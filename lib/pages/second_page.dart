@@ -33,7 +33,7 @@ class SecondPage extends StatelessWidget {
                         style: new TextStyle(
                           fontWeight: FontWeight.bold,
                           letterSpacing: 3.0,
-                          fontSize: 12.0,
+                          fontSize: 14.0,
                           color: Colors.black,
                         ),
                       ),
