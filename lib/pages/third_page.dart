@@ -28,23 +28,27 @@ class _ThirdPageState extends State<ThirdPage> {
     return Card(
       elevation: 5,
       color: Color(0xFFA1887F),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: Container(
-        padding: EdgeInsets.all(20),
         child: Column(
           children: <Widget>[
-            Text(
-              '¿Qué es Flutter?',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+            ClipRRect(
+              borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
+              child: FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/aero.jpg'),
+              ),
             ),
-            SizedBox(
-              height: 20,
-            ),
-            Text('Flutter se usa principalmente para desarrollar aplicaciones de Android y iOS sin necesidad de escribir un código base propio para cada uno de estos sistemas, completamente diferentes entre sí. En este contexto, las aplicaciones móviles se ejecutan como auténticas aplicaciones nativas en los dispositivos.')
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text('Card con imágen'),
+            )
           ],
         ),
       ),
     );
   }
+
 
   Widget _crearCard2() {
     return Card(
