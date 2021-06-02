@@ -50,7 +50,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
               icon: Icon(Icons.format_align_center_rounded, size: 30.0), //icon
               title: Text('Registrarse')), //
           BottomNavigationBarItem(
-              icon: Icon(Icons.shopping_cart_rounded, size: 30.0), //icon
+              icon: Icon(Icons.search, size: 30.0), //icon
               title: Text('Buscar destino')), //
         ],
         selectedItemColor: Colors.grey,
