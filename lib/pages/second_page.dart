@@ -21,7 +21,7 @@ class SecondPage extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       Text(
-                        'WENDY´S',
+                        'AEROPUERTO',
                         style: new TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 40.0,
