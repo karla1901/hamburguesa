@@ -21,7 +21,7 @@ class _ThirdPageState extends State<ThirdPage> {
               _crearCard5(),
               _crearCard6(),
               _crearCard7(),
-              _crearCard8(),
+              _crearCard8()
             ],
           ),
         ),
