@@ -25,7 +25,16 @@ class SecondPage extends StatelessWidget {
                         style: new TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 40.0,
-                          color: Colors.red,
+                          color: Colors.blueGrey,
+                        ),
+                      ),
+                      Text(
+                        'Ingresar a mi cuenta',
+                        style: new TextStyle(
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 3.0,
+                          fontSize: 12.0,
+                          color: Colors.black,
                         ),
                       ),
                     ],
