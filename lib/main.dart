@@ -22,22 +22,10 @@ class PaginaInicio extends StatefulWidget {
 }// Clase PaginaInicio 
 
 class _PaginaInicioState extends State<PaginaInicio> {
-  int _index = 0; 
+  int _index; 
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
-    Widget child;
-    switch (_index) {
-      case 0:
-        child = FlutterLogo();
-        break;
-      case 1:
-        child = MaterialApp(debugShowCheckedModeBanner: false, home: new SecondPage());
-        break;
-      case 2:
-        child = MaterialApp(debugShowCheckedModeBanner: false, home: new ThirdPage());
-        break;
-    }// Switch
     return Scaffold(
       body: SizedBox.expand(child: child),
       bottomNavigationBar: BottomNavigationBar(
