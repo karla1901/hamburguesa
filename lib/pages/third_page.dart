@@ -167,12 +167,12 @@ class _ThirdPageState extends State<ThirdPage> {
               borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
               child: FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Nuevo%20leon.jpg'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Oaxaca.jpg'),
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('Nuevo León'),
+              child: Text('Oaxaca'),
             )
           ],
         ),
