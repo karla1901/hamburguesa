@@ -16,6 +16,11 @@ class BurgerApp extends StatelessWidget {
   }// Constructor
 }// BurgerApp
 
+class PaginaInicio extends StatefulWidget {
+  @override
+  _PaginaInicioState createState() => _PaginaInicioState();
+}// Clase PaginaInicio 
+
 class _PaginaInicioState extends State<PaginaInicio> {
   int _index = 0; 
   @override
