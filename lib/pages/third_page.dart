@@ -8,8 +8,8 @@ class ThirdPage extends StatefulWidget {
 class _ThirdPageState extends State<ThirdPage> {
     @override
   Widget build(BuildContext context) {
+    primarySwatch: Colors.brown,
     return Scaffold(
-      primarySwatch: Colors.brown,
       appBar: AppBar(
         title: Text('Busca tu destino'),
       ),
