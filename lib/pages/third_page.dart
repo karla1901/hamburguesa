@@ -107,7 +107,7 @@ class _ThirdPageState extends State<ThirdPage> {
   }
 }
 
-Widget _crearCard4() {
+Widget _crearCard2() {
     return Card(
       elevation: 5,
       color: Color(0xFFBDBDBD),
@@ -119,16 +119,15 @@ Widget _crearCard4() {
               borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
               child: FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Mazatlan.jpg'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Pto.Vallarta.jpg'),
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('Mazatlán'),
+              child: Text('Puerto Vallarta'),
             )
           ],
         ),
       ),
     );
-  
-}
+  }
