@@ -10,7 +10,7 @@ class _ThirdPageState extends State<ThirdPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cards de Karla'),
+        title: Text('Busca tu destino'),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
