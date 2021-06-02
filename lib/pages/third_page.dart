@@ -105,7 +105,7 @@ class _ThirdPageState extends State<ThirdPage> {
       ),
     );
   }
-}
+
 
 Widget _crearCard4() {
     return Card(
@@ -131,3 +131,4 @@ Widget _crearCard4() {
       ),
     );
   }
+}
