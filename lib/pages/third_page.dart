@@ -20,8 +20,7 @@ class _ThirdPageState extends State<ThirdPage> {
               _crearCard4(),
               _crearCard5(),
               _crearCard6(),
-              _crearCard7(),
-              _crearCard8()
+              _crearCard7()
             ],
           ),
         ),
@@ -194,37 +193,12 @@ class _ThirdPageState extends State<ThirdPage> {
               borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
               child: FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Oaxaca.jpg'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Tulum.jpg'),
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('Oaxaca'),
-            )
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _crearCard8() {
-    return Card(
-      elevation: 5,
-      color: Color(0xFFA1887F),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      child: Container(
-        child: Column(
-          children: <Widget>[
-            ClipRRect(
-              borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
-              child: FadeInImage(
-                placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Oaxaca.jpg'),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text('Oaxaca'),
+              child: Text('Tulum'),
             )
           ],
         ),
