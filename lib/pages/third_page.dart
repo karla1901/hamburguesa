@@ -16,7 +16,12 @@ class _ThirdPageState extends State<ThirdPage> {
             children: <Widget>[
               _crearCard1(),
               _crearCard2(),
-              _crearCard3()
+              _crearCard3(),
+              _crearCard4(),
+              _crearCard5(),
+              _crearCard6(),
+              _crearCard7(),
+              _crearCard8(),
             ],
           ),
         ),
@@ -94,6 +99,32 @@ class _ThirdPageState extends State<ThirdPage> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text('Huatulco'),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+Widget _crearCard4() {
+    return Card(
+      elevation: 5,
+      color: Color(0xFFBDBDBD),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      child: Container(
+        child: Column(
+          children: <Widget>[
+            ClipRRect(
+              borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
+              child: FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Mazatlan.jpg'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text('Mazatlán'),
             )
           ],
         ),
