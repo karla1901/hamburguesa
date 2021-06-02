@@ -49,8 +49,8 @@ class SecondPage extends StatelessWidget {
                         children: <Widget>[
                           Align(
                             child: new Image(
-                              width: 250.0,
-                              height: 165.1,
+                              width: 350.0,
+                              height: 265.1,
                               image: new AssetImage('assets/images/aero.jpg'),
                             ),
                           ),
