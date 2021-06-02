@@ -12,6 +12,21 @@ class BurgerApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Hamburguesas Karla',
       home: PaginaInicio(),
+      body: Center(
+        child: Container(
+          child: Column(
+            children: <Widget>[
+              // Image(
+              //   image: NetworkImage('https://hipertextual.com/files/2019/09/hipertextual-the-legend-of-zelda-links-awakening-2019999870.jpg'),
+              // ),
+              FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Sam.jpg'),
+              )
+            ],
+          ),
+        ),
+      ),
     );// Material App
   }// Constructor
 }// BurgerApp
@@ -37,7 +52,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
               title: Text('Registrarse')), //
           BottomNavigationBarItem(
               icon: Icon(Icons.search, size: 30.0), //icon
-              title: Text('Buscar')), //
+              title: Text('Buscar voleto')), //
         ],
         selectedItemColor: Colors.red,
         unselectedItemColor: Colors.black,
