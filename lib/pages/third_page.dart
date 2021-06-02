@@ -17,7 +17,8 @@ class _ThirdPageState extends State<ThirdPage> {
               _crearCard1(),
               _crearCard2(),
               _crearCard3(),
-              _crearCard4()
+              _crearCard4(),
+              _crearCard5()
             ],
           ),
         ),
@@ -121,6 +122,31 @@ class _ThirdPageState extends State<ThirdPage> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Text('Mazatlán'),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _crearCard5() {
+    return Card(
+      elevation: 5,
+      color: Color(0xFFA1887F),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      child: Container(
+        child: Column(
+          children: <Widget>[
+            ClipRRect(
+              borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
+              child: FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Nuevo%20leon.jpg'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text('Nuevo León'),
             )
           ],
         ),
