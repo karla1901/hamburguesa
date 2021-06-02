@@ -24,7 +24,7 @@ class _ThirdPageState extends State<ThirdPage> {
     );
   }
 
- Widget _crearCard3() {
+ Widget _crearCard1() {
     return Card(
       elevation: 5,
       color: Color(0xFFA1887F),
@@ -50,7 +50,7 @@ class _ThirdPageState extends State<ThirdPage> {
   }
 }
 
-  Widget _crearCard3() {
+  Widget _crearCard2() {
     return Card(
       elevation: 5,
       color: Color(0xFFA1887F),
