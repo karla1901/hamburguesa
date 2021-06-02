@@ -8,6 +8,7 @@ class ThirdPage extends StatefulWidget {
 class _ThirdPageState extends State<ThirdPage> {
     @override
   Widget build(BuildContext context) {
+     theme: ThemeData(primarySwatch: Colors.brown),
     return Scaffold(
       appBar: AppBar(
         title: Text('Busca tu destino'),
