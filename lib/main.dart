@@ -48,7 +48,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
               title: Text('Inicio')), //
           BottomNavigationBarItem(
               icon: Icon(Icons.format_align_center_rounded, size: 30.0), //icon
-              title: Text('Registrarse')), //
+              title: Text('Ingresar')), //
           BottomNavigationBarItem(
               icon: Icon(Icons.search, size: 30.0), //icon
               title: Text('Buscar destino')), //
