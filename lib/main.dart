@@ -24,25 +24,24 @@ class PaginaInicio extends StatefulWidget {
 class _PaginaInicioState extends State<PaginaInicio> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Imagenes de Karlangas'),
-      ),
-      body: Center(
-        child: Container(
-          child: Column(
-            children: <Widget>[
-              // Image(
-              //   image: NetworkImage('https://hipertextual.com/files/2019/09/hipertextual-the-legend-of-zelda-links-awakening-2019999870.jpg'),
-              // ),
-              FadeInImage(
-                placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Sam.jpg'),
-              )
-            ],
-          ),
-        ),
-      ),
-    );
+     return Scaffold(
+      body: SizedBox.expand(child: child),
+      bottomNavigationBar: BottomNavigationBar(
+        onTap: (newIndex) => setState(() => _index = newIndex),
+        currentIndex: _index, items: [
+          BottomNavigationBarItem(
+              icon: Icon(Icons.home_rounded, size: 30.0), //icon
+              title: Text('Inicio')), //
+          BottomNavigationBarItem(
+              icon: Icon(Icons.format_align_center_rounded, size: 30.0), //icon
+              title: Text('Registrarse')), //
+          BottomNavigationBarItem(
+              icon: Icon(Icons.shopping_cart_rounded, size: 30.0), //icon
+              title: Text('Compras')), //
+        ],
+        selectedItemColor: Colors.orangeAccent,
+        unselectedItemColor: Colors.blueAccent,
+      ), // bottom
+    );// Scaffold
   }// Constructor
 }// Clase _PaginaInicioState
