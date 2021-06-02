@@ -70,7 +70,7 @@ class _ThirdPageState extends State<ThirdPage> {
       ),
     );
   }
-}
+
 
   Widget _crearCard3() {
     return Card(
