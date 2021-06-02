@@ -22,10 +22,8 @@ class PaginaInicio extends StatefulWidget {
 }// Clase PaginaInicio 
 
 class _PaginaInicioState extends State<PaginaInicio> {
-  int _index = 0; 
   @override
   Widget build(BuildContext context) {
-  
     return Scaffold(
       body: SizedBox.expand(child: child),
       bottomNavigationBar: BottomNavigationBar(
