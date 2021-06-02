@@ -25,19 +25,21 @@ class _PaginaInicioState extends State<PaginaInicio> {
   int _index = 0; 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
-    Widget child;
-    switch (_index) {
-      case 0:
-        child = FlutterLogo();
-        break;
-      case 1:
-        child = MaterialApp(debugShowCheckedModeBanner: false, home: new SecondPage());
-        break;
-      case 2:
-        child = MaterialApp(debugShowCheckedModeBanner: false, home: new ThirdPage());
-        break;
-    }// Switch
+     body: Center(
+        child: Container(
+          child: Column(
+            children: <Widget>[
+              // Image(
+              //   image: NetworkImage('https://hipertextual.com/files/2019/09/hipertextual-the-legend-of-zelda-links-awakening-2019999870.jpg'),
+              // ),
+              FadeInImage(
+                placeholder: AssetImage('assets/loading.gif'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Sam.jpg'),
+              )
+            ],
+          ),
+        ),
+      ),
     return Scaffold(
       body: SizedBox.expand(child: child),
       bottomNavigationBar: BottomNavigationBar(
