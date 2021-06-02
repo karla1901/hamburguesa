@@ -11,7 +11,7 @@ class _ThirdPageState extends State<ThirdPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Busca tu destino'),
-         theme: ThemeData(primarySwatch: Colors.brown),
+         primarySwatch: Colors.brown,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
