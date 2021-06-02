@@ -9,9 +9,9 @@ class _ThirdPageState extends State<ThirdPage> {
     @override
   Widget build(BuildContext context) {
     return Scaffold(
+      primarySwatch: Colors.brown,
       appBar: AppBar(
         title: Text('Busca tu destino'),
-         primarySwatch: Colors.brown,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
