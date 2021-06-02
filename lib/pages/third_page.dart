@@ -107,7 +107,7 @@ class _ThirdPageState extends State<ThirdPage> {
   }
 
 
-Widget _crearCard4() {
+  Widget _crearCard4() {
     return Card(
       elevation: 5,
       color: Color(0xFFBDBDBD),
@@ -131,3 +131,4 @@ Widget _crearCard4() {
       ),
     );
   }
+}
