@@ -37,7 +37,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
               title: Text('Registrarse')), //
           BottomNavigationBarItem(
               icon: Icon(Icons.search, size: 30.0), //icon
-              title: Text('Buscar vuelo')), //
+              title: Text('Buscar')), //
         ],
         selectedItemColor: Colors.red,
         unselectedItemColor: Colors.black,
