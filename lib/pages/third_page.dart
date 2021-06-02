@@ -110,7 +110,7 @@ class _ThirdPageState extends State<ThirdPage> {
   Widget _crearCard4() {
     return Card(
       elevation: 5,
-      color: Color(0xFFBDBDBD),
+      color: Color(0xFFA1887F),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       child: Container(
         child: Column(
@@ -119,12 +119,12 @@ class _ThirdPageState extends State<ThirdPage> {
               borderRadius: BorderRadius.only(topRight: Radius.circular(20), topLeft: Radius.circular(20)),
               child: FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Pto.Vallarta.jpg'),
+                image: NetworkImage('https://raw.githubusercontent.com/karla1901/MisFotos/main/Guadalajara.jpg'),
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('Puerto Vallarta'),
+              child: Text('Guadalajara'),
             )
           ],
         ),
